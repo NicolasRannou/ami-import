@@ -1,10 +1,10 @@
 {
-  "name": "ami-js",
+  "name": "ami-import",
   "description": "AMI JS Import for Polymer - no goodies, no bundles, nothing else. Just ami.js. (and Three JS of course)",
-  "main": "ami-js.html",
+  "main": "ami-import.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
-    "three-js": "NicolasRannou/three-js#r77"
+    "three-import": "NicolasRannou/three-import#r77"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
@@ -12,11 +12,12 @@
     "web-component-tester": "^4.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   },
-  "homepage": "https://github.com/NicolasRannou/ami-js",
+  "homepage": "https://github.com/NicolasRannou/ami-import",
   "authors": [
     "nicolasrannou <npm.rannou@gmail.com>"
   ],
   "keywords": [
+    "web-components",
     "amijs",
     "webgl",
     "ami",

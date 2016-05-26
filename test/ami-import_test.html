@@ -2,28 +2,28 @@
 
 <html>
   <head>
-    <title>three-js test</title>
+    <title>ami-import test</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="../../web-component-tester/browser.js"></script>
 
-    <link rel="import" href="../three-js.html">
+    <link rel="import" href="../ami-import.html">
   </head>
   <body>
 
     <test-fixture id="basic">
       <template>
-        <three-js></three-js>
+        <ami-import></ami-import>
       </template>
     </test-fixture>
 
     <script>
-      suite('three-js', function() {
+      suite('ami-import', function() {
 
         test('instantiating the element works', function() {
           let element = fixture('basic');
-          assert.equal(element.is, 'three-js');
+          assert.equal(element.is, 'ami-import');
         });
 
       });

@@ -1,3 +1,3 @@
-# \<three-js\>
+# \<ami-import\>
 
-Three JS Import for Polymer - no goodies, no bundles, nothing else. Just threejs.min.js.
+AMI JS Import for Polymer - no goodies, no bundles, nothing else. Just ami.js and threejs.min.js.
