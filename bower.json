@@ -3,8 +3,8 @@
   "description": "AMI JS Import for Polymer - no goodies, no bundles, nothing else. Just ami.js. (and Three JS of course)",
   "main": "ami-import.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.4.0",
-    "three-import": "NicolasRannou/three-import#r81"
+    "polymer": "Polymer/polymer#^1.7.0",
+    "three-import": "NicolasRannou/three-import#r82"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
