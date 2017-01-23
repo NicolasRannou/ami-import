@@ -23,6 +23,6 @@
     "three": "^0.84.0"
   },
   "scripts" : {
-    "postinstall": "( cp node_modules/three/build/three.min.js . ) && (git commit -am $npm_package_name) && (git push origin master)"
+    "postinstall": "( cp node_modules/three/build/three.min.js . ) && (git commit -am $npm_package_version) && (git tag $npm_package_version) && (git push origin master) && (git push --tags)"
   }
 }
