@@ -2,11 +2,10 @@
   "name": "ami-import",
   "description": "AMI JS Import for Polymer - no goodies, no bundles, nothing else. Just ami.js. (and Three JS of course)",
   "main": "ami-import.html",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.7.0",
-    "threejs": "r82",
-    "ami.js": "0.0.12"
+    "ami.js": "0.0.14"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
